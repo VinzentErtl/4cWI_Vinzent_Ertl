@@ -48,6 +48,8 @@ body {
   padding: 10px;
   margin-top: 5px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-color: lightgray;
   
@@ -85,21 +87,32 @@ body {
 }
 
 .tabelle {
-  margin-left: 15%;
-  margin-top: 5%;
+  padding-left: 15%;
+  padding-top: 5%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+
+
 .punkte {
+  display: flex;
+  align-items: center;
   
 }
 
-.TeamRang {
 
-}
 
 .TeamLogo {
-
+  display: flex;
+  align-items: center;
+  
 }
 
 .TeamName {
-
+  display: flex;
+  align-items: center;
+  
 }
