@@ -5,11 +5,11 @@ body {
 }
 
 .boxHome {
-  background-color: rgb(0, 51, 128);
+  background-color: grey;
 }
 
 .boxNext {
-  background-color: rgb(15, 128, 0);
+  background-color: grey;
   
 }
 
@@ -31,6 +31,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 20px;
+
 }
 
 .menuRight{
@@ -96,6 +97,9 @@ body {
 }
 
 
+.TeamRang{
+  flex-basis: 1.5rem;
+}
 
 .punkte {
   display: flex;
@@ -103,16 +107,20 @@ body {
   
 }
 
+.tablebegin{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+
+}
+
 
 
 .TeamLogo {
-  display: flex;
-  align-items: center;
+
   
 }
 
 .TeamName {
-  display: flex;
-  align-items: center;
-  
+ 
 }

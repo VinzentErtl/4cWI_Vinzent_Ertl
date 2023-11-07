@@ -1,0 +1,18 @@
+ .boxas{   
+    width: 10%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+ }
+
+ .tor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+ }
