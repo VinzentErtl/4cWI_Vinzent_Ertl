@@ -9,6 +9,7 @@ const loadData = () => {
 const fillTable = (data) => {
   console.log(data);
   let table = "";
+  let table2 = "";
   data.forEach((team, index) => {
     let position = index + 1;
     var output =
@@ -23,9 +24,13 @@ const fillTable = (data) => {
       '</div></div><div class="punkte">' +
       team.points +
       '</div> </div>';
-    table += output;
+      if(index < 6)
+        table += output;
+      else if(index > 5)
+        table2 += output;
   });
   document.getElementById("leaguetable").innerHTML = table;
+  document.getElementById("leaguetable2").innerHTML = table2;
   console.log(table);
 };
 
