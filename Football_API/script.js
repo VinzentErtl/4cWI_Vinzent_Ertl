@@ -18,7 +18,7 @@ const fillTable = (data) => {
       '</div><div class="TeamLogo"><img class="team_logo" src=" ' +
       team.teamIconUrl +
       '"/>' +
-      '</div><div class="TeamName"><a href="RBSalz.html">' +
+      '</div><div class="TeamName"><a href="team.html?teamid=' + team.teamInfoId + '">' +
       team.teamName +
       '</a>' +
       '</div></div><div class="punkte">' +
