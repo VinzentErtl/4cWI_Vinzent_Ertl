@@ -18,16 +18,16 @@ const fillTable = (data) => {
       '</div><div class="TeamLogo"><img class="team_logo" src=" ' +
       team.teamIconUrl +
       '"/>' +
-      '</div><div class="TeamName"><a href="team.html?teamid=' + team.teamInfoId + '">' +
+      '</div><div class="TeamName"><a href="team.html?teamid=' +
+      team.teamInfoId +
+      '">' +
       team.teamName +
-      '</a>' +
+      "</a>" +
       '</div></div><div class="punkte">' +
       team.points +
-      '</div> </div>';
-      if(index < 6)
-        table += output;
-      else if(index > 5)
-        table2 += output;
+      "</div> </div>";
+    if (index < 6) table += output;
+    else if (index > 5) table2 += output;
   });
   document.getElementById("leaguetable").innerHTML = table;
   document.getElementById("leaguetable2").innerHTML = table2;

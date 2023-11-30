@@ -1,51 +1,47 @@
- .boxas{   
-   width: 10%;
-   border-style: solid;
-   border-width: 1px;
-   border-color: black;
-   padding: 5px;
-   margin: 15px;
-   display: flex;
-   align-items: center;
-   background-color: lightgray;
-   
- }
+.boxas {
+  width: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 5px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+}
 
- h3{
+h3 {
   margin-left: 15px;
- }
+}
 
- .tor{
-    
-    align-items: center;
+.tor {
+  align-items: center;
+}
 
- }
+.Überschrift {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
 
- .Überschrift{
-   position: relative;
-   top: 50%;
-   width: 100%;
-   text-align: center;
-   font-size: 18px;
- }
+.team_foto {
+  width: 7%;
+  height: 7%;
+}
 
- .team_foto{
-   width: 7%;
-   height: 7%;
- }
+.NAMEMama {
+  font-size: 25px;
+  font-weight: bold;
+}
 
- .NAMEMama{
-   font-size: 25px;
-   font-weight: bold;
- }
+.Boxen {
+  display: flex;
+  flex-direction: row;
+}
 
- .Boxen{
-   display: flex;
-   flex-direction: row;
- }
-
-.goalscorer{
+.goalscorer {
   position: relative;
   top: 100px;
-  
 }

@@ -27,8 +27,7 @@ const fillTable = (data) => {
         table += output;
       } else if (index < 20) {
         table2 += output;
-      } else if (index <= 29
-    ) {
+      } else if (index <= 29) {
         table3 += output;
       }
     });
